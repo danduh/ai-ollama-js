@@ -1,0 +1,24 @@
+{
+  "name": "ne-rag",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/ne-rag/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "ne-rag:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "ne-rag:build:development"
+        },
+        "production": {
+          "buildTarget": "ne-rag:build:production"
+        }
+      }
+    }
+  }
+}
