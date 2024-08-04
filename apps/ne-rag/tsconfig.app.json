@@ -2,12 +2,11 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "../../dist/out-tsc",
-    "module": "commonjs",
+    "module": "esNext",
     "types": [
       "node"
     ],
-    "emitDecoratorMetadata": true,
-    "target": "es2021"
+    "declaration": true,
   },
   "exclude": [
     "jest.config.ts",
