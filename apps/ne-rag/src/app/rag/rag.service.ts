@@ -4,11 +4,13 @@ import {
   HuggingFaceEmbedding,
   Ollama,
   Settings,
+  storageContextFromDefaults,
   VectorStoreIndex,
 } from 'llamaindex';
 import { ConfigService } from '@nestjs/config';
 import * as console from 'node:console';
 import { SimpleDirectoryReader } from '@llamaindex/readers/directory';
+import { StorageContext } from 'llamaindex/storage/StorageContext';
 
 export const DATA_TYPES = {
   auto: 'auto',
@@ -26,9 +28,6 @@ export const DATA_TYPES = {
 console.log('Initializing LLM settings');
 Settings.llm = new Ollama({
   model: 'llama3.2',
-  config: {
-    host: 'http://localhost:11434',
-  },
 });
 console.log('Initializing Embedding  settings');
 Settings.embedModel = new HuggingFaceEmbedding({
@@ -40,10 +39,15 @@ console.log('Done');
 @Injectable()
 export class LlamaIndexService implements OnModuleInit {
   vectorIndex!: VectorStoreIndex;
+  storageContext!: StorageContext;
 
   constructor(private configService: ConfigService) {}
 
   async onModuleInit() {
+    this.storageContext = await storageContextFromDefaults({
+      persistDir: this.configService.get('RAG_VECTOR_PERSIST'),
+    });
+
     await this.loadDirectory(
       this.configService.get('RAG_SOURCE_FOLDER') as string
     );
@@ -52,12 +56,15 @@ export class LlamaIndexService implements OnModuleInit {
   private readonly logger = new Logger(LlamaIndexService.name);
 
   private async loadDirectory(directoryPath: string): Promise<void> {
-    console.log('Loading data');
+    console.log('Loading data', directoryPath);
     const loader = new SimpleDirectoryReader();
     const documents = await loader.loadData({ directoryPath });
     console.log(`Loaded ${documents.length} documents`);
     console.log(`Creating Vector Index`);
-    this.vectorIndex = await VectorStoreIndex.fromDocuments(documents);
+    await VectorStoreIndex.fromDocuments(documents, {
+      storageContext: this.storageContext,
+    }).catch(console.error);
+
     console.log(`Vector Created`);
   }
 
