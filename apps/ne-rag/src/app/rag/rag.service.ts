@@ -1,93 +1,80 @@
-import { Injectable, Logger } from '@nestjs/common';
-import { promises as fs } from 'fs';
-import { Document, MetadataMode, NodeWithScore } from '@llamaindex/core/schema';
+import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
+import { MetadataMode, NodeWithScore } from '@llamaindex/core/schema';
 import {
+  HuggingFaceEmbedding,
   Ollama,
-  serviceContextFromDefaults,
   Settings,
-  SimpleVectorStore,
-  storageContextFromDefaults,
-  VectorStoreIndex
+  VectorStoreIndex,
 } from 'llamaindex';
 import { ConfigService } from '@nestjs/config';
 import * as console from 'node:console';
-import { SimpleCodeDirectoryReader } from '../../utils/CodeFilesReader';
-import { TSFileReader } from '../../utils/TSFileReader';
+import { SimpleDirectoryReader } from '@llamaindex/readers/directory';
 
-const ollama = new Ollama({ model: 'llama3.1', options: { temperature: 0.75 } });
-// Use Ollama LLM and Embed Model
-Settings.llm = ollama;
-Settings.embedModel = ollama;
+export const DATA_TYPES = {
+  auto: 'auto',
+  fp32: 'fp32',
+  fp16: 'fp16',
+  q8: 'q8',
+  int8: 'int8',
+  uint8: 'uint8',
+  q4: 'q4',
+  bnb4: 'bnb4',
+  q4f16: 'q4f16',
+} as const;
 
-const serviceContext = serviceContextFromDefaults({
-  llm: ollama,
-  embedModel: ollama
+// Type for the values of DATA_TYPES
+console.log('Initializing LLM settings');
+Settings.llm = new Ollama({
+  model: 'llama3.2',
+  config: {
+    host: 'http://localhost:11434',
+  },
 });
+console.log('Initializing Embedding  settings');
+Settings.embedModel = new HuggingFaceEmbedding({
+  modelType: 'BAAI/bge-small-en-v1.5',
+  modelOptions: { dtype: DATA_TYPES.fp32 },
+});
+console.log('Done');
 
 @Injectable()
-export class LlamaIndexService {
-  constructor(private configService: ConfigService){
+export class LlamaIndexService implements OnModuleInit {
+  vectorIndex!: VectorStoreIndex;
 
+  constructor(private configService: ConfigService) {}
 
+  async onModuleInit() {
+    await this.loadDirectory(
+      this.configService.get('RAG_SOURCE_FOLDER') as string
+    );
   }
 
   private readonly logger = new Logger(LlamaIndexService.name);
 
-  private loadDirectory(directoryPath: string): Promise<Document[]>{
-    const loader = new SimpleCodeDirectoryReader();
-    return loader.loadData({ directoryPath });
-  }
-
-  private async loadDocument(path: string): Promise<Document[]>{
-    const content = await fs.readFile(path);
-
-    return  new TSFileReader().loadDataAsContent(content)
-  }
-
-  private async createIndex(documents: Document[]): Promise<VectorStoreIndex>{
-    return await VectorStoreIndex.fromDocuments(documents);
-  }
-
-  async createPersistIndex(documents: Document[]){
-
-    // create storage context
-    // const storageContext = await storageContextFromDefaults({
-    //   persistDir: './storage'
-    // });
-    // create index
-    const index = await VectorStoreIndex.fromDocuments(documents, {
-      serviceContext,
-      // storageContext
-    });
-    return index;
-  }
-
-
-  async loadPersisIndex(){
-    const storageContext = await storageContextFromDefaults({
-      persistDir: './storage'
-    });
-    return await VectorStoreIndex.init({ storageContext, serviceContext });
-  }
-
-  public async queryIndex(query: string): Promise<{ response: string; sources: NodeWithScore[] }>{
+  private async loadDirectory(directoryPath: string): Promise<void> {
     console.log('Loading data');
-    const directoryPath = this.configService.get<string>('RAG_SOURCE_FOLDER') || '';
-    // const loadedDocument = await this.loadDirectory(directoryPath);
-    // const index = await this.createPersistIndex(loadedDocument);
+    const loader = new SimpleDirectoryReader();
+    const documents = await loader.loadData({ directoryPath });
+    console.log(`Loaded ${documents.length} documents`);
+    console.log(`Creating Vector Index`);
+    this.vectorIndex = await VectorStoreIndex.fromDocuments(documents);
+    console.log(`Vector Created`);
+  }
 
-    // console.log(loadedDocument);
-    const documentPath = directoryPath + '/ts-test.cy.ts';
-    const document = await this.loadDocument(documentPath);
-    const index = await this.createIndex(document);
+  public async queryIndex(
+    request: any
+  ): Promise<{ response: string; sources: NodeWithScore[] }> {
+    const { messages } = request;
 
+    const userMessage = messages.find((msg: any) => msg.role === 'user');
+    const prompt = userMessage?.content.find(
+      (content: any) => content.type === 'text'
+    )?.text;
 
-
-    // SimpleVectorStore.persistData('', index.docStore.persist())
-    // const index = await this.loadIndex();
-    console.log('Data Loaded');
-    const queryEngine = index.asQueryEngine();
-    const { response, sourceNodes } = await queryEngine.query({ query });
+    const queryEngine = this.vectorIndex.asQueryEngine();
+    const { response, sourceNodes } = await queryEngine.query({
+      query: prompt,
+    });
 
     this.logger.log(response);
     sourceNodes?.forEach((source: NodeWithScore, index: number) => {

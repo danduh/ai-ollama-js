@@ -29,25 +29,25 @@ ollama --help
 
 We can use many models, and you can use any of them. Here is a [list of models](https://github.com/ollama/ollama/blob/main/README.md#model-library). 
 
-But we will use llama3.1
+But we will use llama3.2
 
 So just pull the model over
 
 ```shell
-ollama pull llama3.1
+ollama pull llama3.2
 ```
 
 We can check all locally available models by running `ollama list`. 
 ```shell
 NAME            ID              SIZE    MODIFIED           
-llama3.1:latest 62757c860e01    4.7 GB  About a minute ago      
+llama3.2:latest 62757c860e01    4.7 GB  About a minute ago      
 llama3:latest   a6990ed6be41    4.7 GB  2 months ago 
 ```
 
 To run ollama use `run` command
 
 ```shell
-ollama run llama3.1
+ollama run llama3.2
 ```
 
 Now you can communicate with the model :smile:
