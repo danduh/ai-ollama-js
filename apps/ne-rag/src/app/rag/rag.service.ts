@@ -11,6 +11,7 @@ import { ConfigService } from '@nestjs/config';
 import * as console from 'node:console';
 import { SimpleDirectoryReader } from '@llamaindex/readers/directory';
 import { StorageContext } from 'llamaindex/storage/StorageContext';
+import { ChatMessage } from '@llamaindex/core/llms';
 
 export const DATA_TYPES = {
   auto: 'auto',
@@ -57,33 +58,38 @@ export class LlamaIndexService implements OnModuleInit {
 
   private async loadDirectory(directoryPath: string): Promise<void> {
     console.log('Loading data', directoryPath);
+
     const loader = new SimpleDirectoryReader();
     const documents = await loader.loadData({ directoryPath });
+
     console.log(`Loaded ${documents.length} documents`);
     console.log(`Creating Vector Index`);
-    await VectorStoreIndex.fromDocuments(documents, {
+
+    this.vectorIndex = await VectorStoreIndex.fromDocuments(documents, {
       storageContext: this.storageContext,
-    }).catch(console.error);
+    });
 
     console.log(`Vector Created`);
   }
 
-  public async queryIndex(
-    request: any
-  ): Promise<{ response: string; sources: NodeWithScore[] }> {
+  public async queryIndex(request: any): Promise<ChatMessage> {
     const { messages } = request;
 
-    const userMessage = messages.find((msg: any) => msg.role === 'user');
-    const prompt = userMessage?.content.find(
-      (content: any) => content.type === 'text'
-    )?.text;
+    let userMessage = null;
+    for (let i = messages.length - 1; i >= 0; i--) {
+      if (messages[i].role === 'user') {
+        userMessage = messages[i];
+        break;
+      }
+    }
+    const prompt = userMessage?.content;
 
     const queryEngine = this.vectorIndex.asQueryEngine();
-    const { response, sourceNodes } = await queryEngine.query({
+    const { sourceNodes, message } = await queryEngine.query({
       query: prompt,
     });
 
-    this.logger.log(response);
+    this.logger.log(message);
     sourceNodes?.forEach((source: NodeWithScore, index: number) => {
       this.logger.log(
         `\n${index}: Score: ${source.score} - ${source.node
@@ -92,6 +98,6 @@ export class LlamaIndexService implements OnModuleInit {
       );
     });
 
-    return { response, sources: sourceNodes || [] };
+    return message;
   }
 }

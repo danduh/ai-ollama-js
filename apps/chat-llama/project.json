@@ -1,0 +1,9 @@
+{
+  "name": "chat-llama",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/chat-llama/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project chat-llama --web",
+  "targets": {}
+}

@@ -7,12 +7,12 @@ export class LlamaIndexController {
 
   @Get('')
   async get() {
-    return {data: 'allgood'}
+    return { data: 'allgood' };
   }
 
   @Post('completions')
   async query(@Body() body: any) {
-    const result = await this.llamaIndexService.queryIndex(body);
-    return result;
+    const message = await this.llamaIndexService.queryIndex(body);
+    return message.content;
   }
 }

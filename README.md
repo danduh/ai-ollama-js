@@ -14,6 +14,20 @@ To run **ne-rag** service: `nx serve ne-rag`;
 
 ### **BUT** You have to install ollama first!!! se next chapter.
 
+## Local RAG Service
+
+Run `nx serve ne-rag`
+
+Will start service on http://localhost:3000
+
+## Chat WEB UI
+
+Run `nx serve chat-llama`
+
+Navigate to http://localhost:4200
+
+Talk to your chat
+
 ## Ollama
 
 > Ollama is a tool designed to simplify the installation and management of large language models on local systems.
