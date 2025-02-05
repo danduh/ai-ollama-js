@@ -29,7 +29,7 @@ export const DATA_TYPES = {
 console.log('Initializing LLM settings');
 Settings.llm = new Ollama({
   // model: 'llama3.2',
-  model: 'deepseek-r1',
+  model: 'llama3.2',
 });
 console.log('Initializing Embedding  settings');
 Settings.embedModel = new HuggingFaceEmbedding({
