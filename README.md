@@ -12,7 +12,7 @@ npm i
 
 To run **ne-rag** service: `nx serve ne-rag`;
 
-### **BUT** You have to install ollama first!!! se next chapter.
+### **BUT** You have to install ollama first!!! [here](#Install-Ollama).
 
 ## Local RAG Service
 
@@ -28,7 +28,7 @@ Navigate to http://localhost:4200
 
 Talk to your chat
 
-## Ollama
+## Install Ollama
 
 > Ollama is a tool designed to simplify the installation and management of large language models on local systems.
 
