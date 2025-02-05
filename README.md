@@ -1,79 +1,108 @@
-# Get Started
+# 🚀 Get Started
 
-## Checkout
+## 🛒 Checkout the Repository
 
-As usual.
+Clone the repository and install dependencies:
 
+```bash
+git clone <repo-url>
+cd <repo-name>
+npm install
 ```
-git clone repo
-cd repo
-npm i
+
+### ⚠️ **Important: Install Ollama First!** [See Installation Instructions](#install-ollama)
+
+## 🧠 Local RAG Service
+
+To start the **ne-rag** service, run:
+
+```bash
+nx serve ne-rag
 ```
 
-To run **ne-rag** service: `nx serve ne-rag`;
+This will start the service at:  
+👉 [http://localhost:3000](http://localhost:3000)
 
-### **BUT** You have to install ollama first!!! [here](#Install Ollama).
+## 💬 Chat Web UI
 
-## Local RAG Service
+To launch the **Chat-Llama** web UI, run:
 
-Run `nx serve ne-rag`
+```bash
+nx serve chat-llama
+```
 
-Will start service on http://localhost:3000
+Then open your browser and go to:  
+👉 [http://localhost:4200](http://localhost:4200)
 
-## Chat WEB UI
+You can now interact with the chat interface!
 
-Run `nx serve chat-llama`
+---
 
-Navigate to http://localhost:4200
-
-Talk to your chat
-
-## Install Ollama
+# 📥 Install Ollama
 
 > Ollama is a tool designed to simplify the installation and management of large language models on local systems.
 
-Install ollama first: https://ollama.com/download/linux
+### 🖥️ Install Ollama
 
-For Linux/Ubuntu/WSL2
+Download and install Ollama for your system:  
+🔗 [Ollama Installation Guide](https://ollama.com/download/linux)
 
-```shell
+For **Linux/Ubuntu/WSL2**, run:
+
+```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-check that you have ollama installed
+### 🔍 Verify Installation
 
-```shell
+Check if Ollama is installed:
+
+```bash
 ollama --version
+```
 
-# To see possible commands run
+To see all available commands:
+
+```bash
 ollama --help
 ```
 
-We can use many models, and you can use any of them. Here is a [list of models](https://github.com/ollama/ollama/blob/main/README.md#model-library).
+---
 
-But we will use llama3.2
+# 🧩 Using Ollama with Llama3.2
 
-So just pull the model over
+Ollama supports multiple models. You can check out the available models in the [Ollama Model Library](https://github.com/ollama/ollama/blob/main/README.md#model-library).
 
-```shell
+For this setup, we'll use **Llama3.2**.
+
+### 📥 Download the Llama3.2 Model
+
+```bash
 ollama pull llama3.2
 ```
 
-We can check all locally available models by running `ollama list`.
+To list all downloaded models:
 
-```shell
+```bash
+ollama list
+```
+
+Example output:
+
+```bash
 NAME            ID              SIZE    MODIFIED           
 llama3.2:latest 62757c860e01    4.7 GB  About a minute ago      
 ```
 
-To run ollama use `run` command
+### 🚀 Run the Model
 
-```shell
+To start the **Llama3.2** model:
+
+```bash
 ollama run llama3.2
 ```
 
-Now you can communicate with the model :smile:
-Type `/help` to see build in commands.
+Now you can communicate with the model! 😃
 
-You can leave the terminal chat by using `/bye` command. 
-
+- Type `/help` to see built-in commands.
+- Exit the chat using the `/bye` command.
