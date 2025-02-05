@@ -28,6 +28,7 @@ export const DATA_TYPES = {
 // Type for the values of DATA_TYPES
 console.log('Initializing LLM settings');
 Settings.llm = new Ollama({
+  // model: 'llama3.2',
   model: 'llama3.2',
 });
 console.log('Initializing Embedding  settings');
@@ -90,7 +91,11 @@ export class LlamaIndexService implements OnModuleInit {
     });
 
     this.logger.log(message);
+
+
     sourceNodes?.forEach((source: NodeWithScore, index: number) => {
+      console.log("SOURCE:", source)
+      console.log("INDEX:", index)
       this.logger.log(
         `\n${index}: Score: ${source.score} - ${source.node
           .getContent(MetadataMode.NONE)

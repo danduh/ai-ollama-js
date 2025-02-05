@@ -5,11 +5,12 @@
   "scripts": {},
   "private": true,
   "dependencies": {
-    "@llamaindex/chat-ui": "^0.0.13",
+    "@llamaindex/chat-ui": "^0.0.14",
     "@nestjs/common": "^10.0.2",
     "@nestjs/config": "^3.2.3",
     "@nestjs/core": "^10.0.2",
     "@nestjs/platform-express": "^10.0.2",
+    "@nestjs/swagger": "^8.1.0",
     "@xenova/transformers": "^2.17.2",
     "ai": "^4.0.11",
     "axios": "^1.6.0",

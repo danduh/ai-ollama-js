@@ -1,1 +1,387 @@
-{"docstore/data":{"dc7d9017-2668-4cdb-8460-63b70d1205e4":{"indexId":"dc7d9017-2668-4cdb-8460-63b70d1205e4","nodesDict":{"8f0eaabf-bb24-4e72-9229-8af24c9250b6":{"id_":"8f0eaabf-bb24-4e72-9229-8af24c9250b6","metadata":{"page_number":1,"total_pages":3,"file_path":"/Users/danielos/dev/ai-ollama-js/documents/SaaS_Platform_Evolution.pdf","file_name":"SaaS_Platform_Evolution.pdf"},"excludedEmbedMetadataKeys":[],"excludedLlmMetadataKeys":[],"relationships":{"SOURCE":{"nodeId":"/Users/danielos/dev/ai-ollama-js/documents/SaaS_Platform_Evolution.pdf_1","metadata":{"page_number":1,"total_pages":3,"file_path":"/Users/danielos/dev/ai-ollama-js/documents/SaaS_Platform_Evolution.pdf","file_name":"SaaS_Platform_Evolution.pdf"},"hash":"upzMBpS0zR2+BEpmXJPoTGUllOfMwDZihejDTQ8z/YA="}},"text":"The Evolution of SaaS Platforms: From the 1990s to Today\nSoftware-as-a-Service (SaaS) has transformed the way businesses and individuals consume\nsoftware.\nIts evolution mirrors advancements in technology, shifts in business models, and changes in\ncustomer expectations.\nHere is a detailed exploration of how SaaS has developed from the 1990s to today.\n1990s: The Foundation of SaaS\nThe 1990s laid the groundwork for SaaS, even if the term itself wasn't in common use yet. With the\nadvent of the internet,\nearly web-based applications like email services (e.g., Hotmail) began demonstrating the viability of\ndelivering software through the browser.\nDuring this time, companies experimented with hosted solutions that minimized on-premises\ninfrastructure needs.\n2000s: The Rise of SaaS\nThe early 2000s saw the formal emergence of SaaS as a business model. Salesforce, founded in\n1999, became a trailblazer,\noffering CRM software entirely via the web. This period was marked by:\n- Advances in internet bandwidth, making web-based applications faster and more reliable.\n- The adoption of multi-tenant architecture, enabling more efficient resource use and scalability.\n- The development of subscription-based pricing models, which shifted costs from capital\nexpenditures (CAPEX) to operating expenses (OPEX).\n2010s: SaaS Goes Mainstream\nPage 1","textTemplate":"","endCharIdx":1339,"metadataSeparator":"\n","type":"TEXT","hash":"cMWFiyeew2oB428Gqk6FEYEfGZcjO9cL0nC6SEG2Efw="},"e73f62e7-a1ef-454d-83fc-133f68b7386d":{"id_":"e73f62e7-a1ef-454d-83fc-133f68b7386d","metadata":{"page_number":2,"total_pages":3,"file_path":"/Users/danielos/dev/ai-ollama-js/documents/SaaS_Platform_Evolution.pdf","file_name":"SaaS_Platform_Evolution.pdf"},"excludedEmbedMetadataKeys":[],"excludedLlmMetadataKeys":[],"relationships":{"SOURCE":{"nodeId":"/Users/danielos/dev/ai-ollama-js/documents/SaaS_Platform_Evolution.pdf_2","metadata":{"page_number":2,"total_pages":3,"file_path":"/Users/danielos/dev/ai-ollama-js/documents/SaaS_Platform_Evolution.pdf","file_name":"SaaS_Platform_Evolution.pdf"},"hash":"eETRS/24kRqeCplnRUwlcqWCr+SCKXBNBIxFEcCxBzc="}},"text":"The Evolution of SaaS Platforms: From the 1990s to Today\nThe 2010s brought widespread adoption of SaaS platforms across industries. Key factors driving\ngrowth included:\n- Cloud Computing: Platforms like AWS, Microsoft Azure, and Google Cloud enabled SaaS\nproviders to scale rapidly.\n- Mobile Revolution: SaaS applications adapted to mobile devices, increasing accessibility for users.\n- Specialized Solutions: SaaS expanded from generic tools like CRM and ERP to niche solutions for\nindustries like healthcare, education, and finance.\n- Security and Trust: With enhanced encryption and compliance standards, companies felt more\nconfident adopting SaaS.\n2020s: SaaS and the Era of AI\nThe ongoing 2020s have seen SaaS integrating cutting-edge technologies like Artificial Intelligence\n(AI) and machine learning.\nKey trends include:\n- AI-Powered Features: Automation, predictive analytics, and personalization have become common\nin SaaS offerings.\n- Hybrid and Multi-Cloud: SaaS platforms now support hybrid environments, allowing data to flow\nseamlessly between on-premises systems and the cloud.\n- Remote Work: The COVID-19 pandemic accelerated SaaS adoption as companies sought tools for\ncollaboration, project management, and communication.\nFuture of SaaS\nAs SaaS continues to evolve, future trends may include:\n- Decentralized SaaS: Utilizing blockchain for trustless operations and decentralization.\n- Edge Computing Integration: Bringing SaaS closer to data sources for real-time processing.\nPage 2","textTemplate":"","endCharIdx":1502,"metadataSeparator":"\n","type":"TEXT","hash":"6xgtEyQkvaD2oHnSDaB1wBMr3IsyyuLoL6LtRgI4uBY="},"cacbbdd9-640b-4d71-9b30-0543fa983668":{"id_":"cacbbdd9-640b-4d71-9b30-0543fa983668","metadata":{"page_number":3,"total_pages":3,"file_path":"/Users/danielos/dev/ai-ollama-js/documents/SaaS_Platform_Evolution.pdf","file_name":"SaaS_Platform_Evolution.pdf"},"excludedEmbedMetadataKeys":[],"excludedLlmMetadataKeys":[],"relationships":{"SOURCE":{"nodeId":"/Users/danielos/dev/ai-ollama-js/documents/SaaS_Platform_Evolution.pdf_3","metadata":{"page_number":3,"total_pages":3,"file_path":"/Users/danielos/dev/ai-ollama-js/documents/SaaS_Platform_Evolution.pdf","file_name":"SaaS_Platform_Evolution.pdf"},"hash":"ZbcOvnCsbRrie4/gkNYBbvG98j646nTypIq7/dysobg="}},"text":"The Evolution of SaaS Platforms: From the 1990s to Today\n- Greater Customization: AI-driven modular SaaS solutions that adapt dynamically to user needs.\n- Focus on Sustainability: Greener data centers and eco-friendly practices in SaaS development and\ndeployment.\nIn conclusion, SaaS has grown from a nascent idea in the 1990s to a dominant force in software\ndelivery.\nIts evolution has been shaped by technological progress, user demands, and global events, and its\nfuture promises even greater innovation.\nPage 3","textTemplate":"","endCharIdx":514,"metadataSeparator":"\n","type":"TEXT","hash":"oa6TzLtzfy9Unq7HH71uyrTlZvIyAIpYhjoQMhD9yew="},"484e1e3d-22f4-4360-9e81-4e2824ba8572":{"id_":"484e1e3d-22f4-4360-9e81-4e2824ba8572","metadata":{"file_path":"/Users/danielos/dev/ai-ollama-js/documents/text.txt","file_name":"text.txt"},"excludedEmbedMetadataKeys":[],"excludedLlmMetadataKeys":[],"relationships":{"SOURCE":{"nodeId":"/Users/danielos/dev/ai-ollama-js/documents/text.txt_1","metadata":{"file_path":"/Users/danielos/dev/ai-ollama-js/documents/text.txt","file_name":"text.txt"},"hash":"DTrouz1Fe/StfcgeviaSm7p7qxIe5OqTBW82Q+nsQLc="}},"text":"TXT test file\nPurpose: Provide example of this file type\nDocument file type: TXT\nVersion: 1.0\nRemark:\n\nExample content:\nThe names \"John Doe\" for males, \"Jane Doe\" or \"Jane Roe\" for females, or \"Jonnie Doe\" and \"Janie Doe\" for children, or just \"Doe\" non-gender-specifically are used as placeholder names for a party whose true identity is unknown or must be withheld in a legal action, case, or discussion. The names are also used to refer to acorpse or hospital patient whose identity is unknown. This practice is widely used in the United States and Canada, but is rarely used in other English-speaking countries including the United Kingdom itself, from where the use of \"John Doe\" in a legal context originates. The names Joe Bloggs or John Smith are used in the UK instead, as well as in Australia and New Zealand.\n\nJohn Doe is sometimes used to refer to a typical male in other contexts as well, in a similar manner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Bloggs. For example, the first name listed on a form is often John Doe, along with a fictional address or other fictional information to provide an example of how to fill in the form. The name is also used frequently in popular culture, for example in the Frank Capra film Meet John Doe. John Doe was also the name of a 2002 American television series.\n\nSimilarly, a child or baby whose identity is unknown may be referred to as Baby Doe. A notorious murder case in Kansas City, Missouri, referred to the baby victim as Precious Doe. Other unidentified female murder victims are Cali Doe and Princess Doe. Additional persons may be called James Doe, Judy Doe, etc. However, to avoid possible confusion, if two anonymous or unknown parties are cited in a specific case or action, the surnames Doe and Roe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If several anonymous parties are referenced, they may simply be labelled John Doe #1, John Doe #2, etc. (the U.S. Operation Delego cited 21 (numbered) \"John Doe\"s) or labelled with other variants of Doe / Roe / Poe / etc. Other early alternatives such as John Stiles and Richard Miles are now rarely used, and Mary Major has been used in some American federal cases.\n\n\n\nFile created by https://www.online-convert.com\nMore example files: https://www.online-convert.com/file-type\nText of Example content: Wikipedia (https://en.wikipedia.org/wiki/John_Doe)\nLicense: Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)\n\nFeel free to use and share the file according to the license above.","textTemplate":"","endCharIdx":2574,"metadataSeparator":"\n","type":"TEXT","hash":"ci4RrC839Ur9tI4hxBqp2UQrXnHFVj1FBoUOK09ScaI="}},"type":"simple_dict"}}}
+{
+  "docstore/data": {
+    "d28938f7-f486-4ee4-b78a-8bbd4bd26aeb": {
+      "indexId": "d28938f7-f486-4ee4-b78a-8bbd4bd26aeb",
+      "nodesDict": {
+        "97da98bc-891c-4138-8b6e-7966f65223c1": {
+          "id_": "97da98bc-891c-4138-8b6e-7966f65223c1",
+          "metadata": {
+            "page_number": 1,
+            "total_pages": 13,
+            "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+            "file_name": "Insider-Trading-Policy.pdf"
+          },
+          "excludedEmbedMetadataKeys": [],
+          "excludedLlmMetadataKeys": [],
+          "relationships": {
+            "SOURCE": {
+              "nodeId": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf_1",
+              "metadata": {
+                "page_number": 1,
+                "total_pages": 13,
+                "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+                "file_name": "Insider-Trading-Policy.pdf"
+              },
+              "hash": "2oAP6JVixEwHtU/yI7Qvzml2NtzRy2JFN8LuGTE5vMo="
+            }
+          },
+          "text": "PAYONEER GLOBAL INC.\nStatement of Policy Concerning Trading in Company Securities\nAdopted June 25, 2021",
+          "textTemplate": "",
+          "endCharIdx": 103,
+          "metadataSeparator": "\n",
+          "type": "TEXT",
+          "hash": "JDFyvYAvYr1bZsTQjLM9xnR31Na0ecnN5xIdxJis0cU="
+        },
+        "96bbdfc8-e0c4-4b24-b970-48e93fe60e09": {
+          "id_": "96bbdfc8-e0c4-4b24-b970-48e93fe60e09",
+          "metadata": {
+            "page_number": 2,
+            "total_pages": 13,
+            "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+            "file_name": "Insider-Trading-Policy.pdf"
+          },
+          "excludedEmbedMetadataKeys": [],
+          "excludedLlmMetadataKeys": [],
+          "relationships": {
+            "SOURCE": {
+              "nodeId": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf_2",
+              "metadata": {
+                "page_number": 2,
+                "total_pages": 13,
+                "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+                "file_name": "Insider-Trading-Policy.pdf"
+              },
+              "hash": "oc5vo/JRg7OYVBfNoZtpysALcPrWWQVtluoTcWML8oA="
+            }
+          },
+          "text": "i\nTABLE OF CONTENTS\nPage No.\nI. SUMMARY OF POLICY CONCERNING TRADING IN COMPANY SECURITIES............ 1\nII. THE USE OF INSIDE INFORMATION IN CONNECTION WITH TRADING IN\nSECURITIES ....................................................................................................................... 1\nA. General Rule. .......................................................................................................... 1\nB. Who Does the Policy Apply To? ............................................................................. 3\nC. Other Companies’ Stock. ........................................................................................ 3\nD. Hedging and Derivatives. ........................................................................................ 3\nE. Pledging of Securities, Margin Accounts. .............................................................. 4\nF. General Guidelines. ................................................................................................ 4\nG. Applicability of U.S. Securities Laws to International Transactions........................ 6\nIII. OTHER LIMITATIONS ON SECURITIES TRANSACTIONS ............................................. 6\nA. Public Resales – Rule 144. ..................................................................................... 6\nB. Private Resales. ...................................................................................................... 7\nC. Restrictions on Purchases of Company Securities. ............................................... 8\nD. Disgorgement of Profits on Short-Swing Transactions – Section 16(b). ................ 8\nE. Prohibition of Short Sales. ...................................................................................... 9\nF. Filing Requirements. ............................................................................................... 9",
+          "textTemplate": "",
+          "endCharIdx": 1881,
+          "metadataSeparator": "\n",
+          "type": "TEXT",
+          "hash": "Rpfl3U8A2OMX1Z8tkw9GLUwbKgASWz1OzNkfbVQ7y+E="
+        },
+        "c3d6ae7d-ea3d-453d-82f6-1feec84eae46": {
+          "id_": "c3d6ae7d-ea3d-453d-82f6-1feec84eae46",
+          "metadata": {
+            "page_number": 3,
+            "total_pages": 13,
+            "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+            "file_name": "Insider-Trading-Policy.pdf"
+          },
+          "excludedEmbedMetadataKeys": [],
+          "excludedLlmMetadataKeys": [],
+          "relationships": {
+            "SOURCE": {
+              "nodeId": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf_3",
+              "metadata": {
+                "page_number": 3,
+                "total_pages": 13,
+                "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+                "file_name": "Insider-Trading-Policy.pdf"
+              },
+              "hash": "sxsW2XEKsqFgwp+VUI14ikmrK6d1K9pyz0ohuNRwjtY="
+            }
+          },
+          "text": "1\nError! Unknown document property name. Error! Unknown document property name.\nI. SUMMARY OF POLICY CONCERNING TRADING IN COMPANY SECURITIES\nIt is Payoneer Global Inc.’s and its subsidiaries’ (collectively, the “Company”) policy that it will,\nwithout exception, comply with all applicable laws and regulations in conducting its business.\nEach employee (including, for the purpose of this policy, a full-time contractor) and each director\nis expected to abide by this policy. When carrying out Company business, employees and\ndirectors must avoid any activity that violates applicable laws or regulations. In order to avoid\neven an appearance of impropriety, trading of Company securities by all directors, officers and\nemployees are subject to a trading window, as detailed herein. In addition, the Company’s\ndirectors, officers and certain other employees are subject to pre-approval requirements\ndescribed below and other limitations on their ability to enter into transactions involving the\nCompany’s securities. Although these limitations do not apply to transactions pursuant to written\nplans for trading securities that comply with Rule 10b5-1 (each, a “10b5-1 plan”) under the\nSecurities Exchange Act of 1934 (the “Exchange Act”), the entry into, amendment or termination\nof any such written trading plan by directors, officers and certain employees is subject to pre-\napproval requirements and other limitations.\nII. THE USE OF INSIDE INFORMATION IN CONNECTION WITH TRADING IN SECURITIES\nA. General Rule.\nThe U.S. securities laws regulate the sale and purchase of securities in the interest of protecting\nthe investing public. U.S. securities laws give the Company, its officers and directors, and other\nemployees the responsibility to ensure that information about the Company is not used unlawfully\nin the purchase and sale of securities (such as stocks, bonds, notes, debentures, limited\npartnership units or other equity or debt securities).\nAll employees and directors should pay particularly close attention to the laws against trading on\n“inside” information. These laws are based upon the belief that all persons trading in a\ncompany’s securities should have equal access to all “material” information about that company.\nFor example, if an employee or a director of a company knows material inside financial\ninformation, that employee or director is prohibited from buying or selling shares in the company\nuntil the information has been adequately disclosed to the public. This is because the employee\nor director knows information that could cause the share price to change, and it would be unfair\nfor the employee or director to have an advantage (knowledge that the share price could change)\nthat the rest of the investing public does not have. In fact, it is more than unfair; it is considered\nto be fraudulent and illegal. Civil and criminal penalties for this kind of activity are severe.\nThe general rule can be stated as follows: It is a violation of federal securities laws for any\nperson to buy or sell securities if he or she is in possession of material inside\ninformation. Because some periods in the life of the Company are more prone to material\ninside information, trading in Company securities by all directors, officers and employees\n(except pursuant to a 10b5-1 plan) is only allowed during a defined Window (as detailed in\nSection F) and is strictly prohibited at any other time.\nWhat is Material information? Information is material if there is a substantial likelihood that a\nreasonable investor would consider it important in making an investment decision.\nMaterial information can be favorable or unfavorable. If it is not clear whether inside information\nis material, it should be treated as if it was material. Some examples of information that could be\nconsidered material include:",
+          "textTemplate": "",
+          "endCharIdx": 3826,
+          "metadataSeparator": "\n",
+          "type": "TEXT",
+          "hash": "ZYdRfO82QjAG29MYJlgSVmDe5vL42Xsd9/C9gYYnzBc="
+        },
+        "8dc0cbdb-e8a3-4d38-95e6-9e8204acd36b": {
+          "id_": "8dc0cbdb-e8a3-4d38-95e6-9e8204acd36b",
+          "metadata": {
+            "page_number": 4,
+            "total_pages": 13,
+            "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+            "file_name": "Insider-Trading-Policy.pdf"
+          },
+          "excludedEmbedMetadataKeys": [],
+          "excludedLlmMetadataKeys": [],
+          "relationships": {
+            "SOURCE": {
+              "nodeId": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf_4",
+              "metadata": {
+                "page_number": 4,
+                "total_pages": 13,
+                "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+                "file_name": "Insider-Trading-Policy.pdf"
+              },
+              "hash": "BDomPibD+jLwMJwGwTO3rY5K8ZoHZYCmkm1EUCpoaQw="
+            }
+          },
+          "text": "2\n• Significant changes in key performance indicators of the Company,\n• Actual, anticipated or targeted earnings and dividends and other financial\ninformation of the Company or any of its units and teams,\n• Financial, sales and other significant internal business forecasts, or a change in\npreviously released estimates of the Company or any of its units and teams,\n• Mergers, business acquisitions or dispositions, or the expansion or curtailment of\noperations,\n• Significant events affecting the Company’s operations, including any breach of\ninformation or security systems that compromises the functioning of the\nCompany’s information or other systems or results in the exposure or loss of\ncustomer information, in particular personal information,\n• New equity or debt offerings or significant borrowing,\n• Changes in debt ratings, or analyst upgrades or downgrades of the issuer or one\nof its securities,\n• Significant changes in accounting treatment, write-offs or effective tax rate,\n• Significant litigation or governmental investigation,\n• Changes in top management, and\n• Stock splits or other corporate actions.\nWhat is inside information? Information is “inside information” if it has not been publicly disclosed\nin a manner making it available to investors generally on a broad-based non-exclusionary basis\n(e.g., the filing of an 8-K). If it is not clear whether material information has been sufficiently\npublicized, it should be treated as if it is inside information. Furthermore, it is illegal for any\nofficer, director or other employee in possession of material inside information to provide other\npeople with such information or to recommend that they buy or sell the securities (this is called\n“tipping”). In that case, the tipper and the tippee may both be held liable.\nThe Securities and Exchange Commission (the “SEC”), prosecutors, the stock exchanges and\nplaintiffs’ lawyers focus on uncovering insider trading. A breach of the insider trading laws could\nexpose the insider or anyone who trades on information provided by an insider to criminal fines\nup to three times the profits earned and imprisonment up to ten years, in addition to civil\npenalties (up to three times of the profits earned), and injunctive actions. The SEC may pursue\nenforcement actions and impose liabilities on the Company as well.\nInside information does not belong to the individual directors, officers or other employees who\nmay handle it or otherwise become knowledgeable about it. It is an asset of the Company. For\nany person to use such information for personal benefit or to disclose it to others outside the\nCompany violates the Company’s interests. More particularly, in connection with trading in the",
+          "textTemplate": "",
+          "endCharIdx": 2711,
+          "metadataSeparator": "\n",
+          "type": "TEXT",
+          "hash": "HcC6HspgIMQ1+HacWMAFX45fgEXlq/JHX50lh5t+Jrg="
+        },
+        "ddf9c546-9b2d-4146-bdd8-ab4b4ca572f2": {
+          "id_": "ddf9c546-9b2d-4146-bdd8-ab4b4ca572f2",
+          "metadata": {
+            "page_number": 5,
+            "total_pages": 13,
+            "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+            "file_name": "Insider-Trading-Policy.pdf"
+          },
+          "excludedEmbedMetadataKeys": [],
+          "excludedLlmMetadataKeys": [],
+          "relationships": {
+            "SOURCE": {
+              "nodeId": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf_5",
+              "metadata": {
+                "page_number": 5,
+                "total_pages": 13,
+                "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+                "file_name": "Insider-Trading-Policy.pdf"
+              },
+              "hash": "to+AfXK0tXcJ7GCMnG+alPxFgPQKBchLgXH0uqsW/dk="
+            }
+          },
+          "text": "3\nCompany’s securities, it is a fraud against members of the investing public and against the\nCompany. The mere perception that an employee or director traded with the knowledge of\nmaterial inside information could harm the reputation of both the Company and that employee or\ndirector.\nB. Who Does the Policy Apply To?\nThe prohibition against trading on inside information applies to directors, officers and all other\ndomestic and international employees of the Company and its subsidiaries, and to other people\nrelated to the Company who gain access to that information. The prohibition also applies to:\n1. the spouses, domestic partners and minor children (even if financially\nindependent) of such employees or directors and\n2. anyone to whom such employees or directors provide significant financial\nsupport.\nFurther, the prohibition applies to: 1) any account over which employees, directors and the\npersons listed in a) and b) above have or share the power, directly or indirectly, to make\ninvestment decisions (whether or not such persons have a financial interest in the account) and\n2) those accounts established or maintained by such persons with their consent or knowledge\nand in which such persons have a direct or indirect financial interest.\nBecause of their access to confidential information on a regular basis, Company policy subjects\nits directors and certain employees as detailed in Section F(6) below (the “Window Group”) to\nadditional restrictions on trading in Company securities. The restrictions for the Window Group\nare discussed in Section F below. In addition, directors and certain employees with inside\nknowledge of material information may be subject to ad hoc restrictions on trading from time to\ntime.\nC. Other Companies’ Stock.\nEmployees and directors who learn material information about suppliers, customers, or\ncompetitors through their work at the Company, should keep it confidential and not buy or sell\nstock in such companies until the information becomes public. Employees and directors should\nnot give tips about such stock.\nD. Hedging and Derivatives.\nEmployees and directors are prohibited from engaging in any derivative transactions (including\ntransactions involving options, puts, calls, prepaid variable forward contracts, equity swaps,\ncollars and exchange funds or other derivatives) that are designed to hedge or speculate on any\nchange in the market value of the Company’s equity securities. As discussed below, directors\nand employees are also prohibited from shorting the Company’s stock.\nTrading in options or other derivatives is generally highly speculative and very risky. People who\nbuy options are betting that the stock price will move rapidly. For that reason, when a person\ntrades in options in his or her employer’s stock, it will arouse suspicion in the eyes of the SEC\nthat the person was trading on the basis of inside information, particularly where the trading",
+          "textTemplate": "",
+          "endCharIdx": 2929,
+          "metadataSeparator": "\n",
+          "type": "TEXT",
+          "hash": "8RFgYOQzVEu34KSJIVLwKRktwTkbP9oG3/a5fvkCbt0="
+        },
+        "f6afdfc1-27a8-490b-b8bd-ac44a87e745a": {
+          "id_": "f6afdfc1-27a8-490b-b8bd-ac44a87e745a",
+          "metadata": {
+            "page_number": 6,
+            "total_pages": 13,
+            "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+            "file_name": "Insider-Trading-Policy.pdf"
+          },
+          "excludedEmbedMetadataKeys": [],
+          "excludedLlmMetadataKeys": [],
+          "relationships": {
+            "SOURCE": {
+              "nodeId": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf_6",
+              "metadata": {
+                "page_number": 6,
+                "total_pages": 13,
+                "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+                "file_name": "Insider-Trading-Policy.pdf"
+              },
+              "hash": "nNj7Qiqw6S8FPRu25DNKfJMvTww4xko1PeeppAM10Pw="
+            }
+          },
+          "text": "4\noccurs before a company announcement or major event. It is difficult for an employee or\ndirector to prove that he or she did not know about the announcement or event.\nIf the SEC or the stock exchanges were to notice active options trading by one or more\nemployees or directors of the Company prior to an announcement, they would investigate. Such\nan investigation could be embarrassing to the Company (as well as expensive), and could result\nin severe penalties and expense for the persons involved. For all of these reasons, the\nCompany prohibits its employees and directors from trading in options or other securities\ninvolving the Company’s stock. This policy does not pertain to employee stock options\ngranted by the Company. Employee stock options cannot be traded.\nE. Pledging of Securities, Margin Accounts.\nPledged securities may be sold by the pledgee without the pledgor’s consent under certain\nconditions. For example, securities held in a margin account may be sold by a broker without the\ncustomer’s consent if the customer fails to meet a margin call. Because such a sale may occur\nat a time when an employee or a director has material inside information or is otherwise not\npermitted to trade in Company securities, the Company prohibits employees and directors\nfrom pledging Company securities in any circumstance, including by purchasing Company\nsecurities on margin or holding Company securities in a margin account.\nF. General Guidelines.\nThe following guidelines should be followed in order to ensure compliance with applicable\nantifraud laws and with the Company’s policies:\n1. Nondisclosure. Material inside information must not be disclosed to anyone, except\nto persons within the Company whose positions require them to know it. No\nemployee or director should discuss material inside information in public places or in\ncommon areas on Company property.\n2. Trading in Company Securities. No employee or director may place a purchase\nor sale order, or recommend that another person place a purchase or sale\norder in the Company’s securities when he or she has knowledge of material\ninformation concerning the Company that has not been disclosed to the public.\nAdditionally, any proposed purchase or sale of Company securities by a member of\nmanagement or the board of directors as detailed in Section F(6) below must be pre-\napproved by the Chief Legal and Regulatory Officer (“CLO”), regardless of whether\nsuch person has knowledge of material information concerning the Company that has\nnot been disclosed to the public. These restrictions include, in each case, orders for\npurchases and sales of stock, convertible securities and other securities (e.g., bonds)\nand includes increasing or decreasing investment in Company securities through a\nretirement account. The exercise of employee stock options is not subject to this\npolicy. However, stock that was acquired upon exercise of a stock option will be\ntreated like any other stock, and may not be sold by an employee who is in\npossession of material inside information or, in the case of management and the\nboard of directors, without prior approval from the CLO. Any employee or director\nwho possesses material inside information should wait until the start of the third\nbusiness day after the information has been publicly released before trading. There\nis no exception to this policy, even for hardship to the employee or director or based",
+          "textTemplate": "",
+          "endCharIdx": 3422,
+          "metadataSeparator": "\n",
+          "type": "TEXT",
+          "hash": "7iqijF5z6sSRmjXU3/E0DdWteHENsftEyQg3K4AGZ1w="
+        },
+        "bb39c4fa-ff4c-414c-86d6-bfe430af9372": {
+          "id_": "bb39c4fa-ff4c-414c-86d6-bfe430af9372",
+          "metadata": {
+            "page_number": 7,
+            "total_pages": 13,
+            "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+            "file_name": "Insider-Trading-Policy.pdf"
+          },
+          "excludedEmbedMetadataKeys": [],
+          "excludedLlmMetadataKeys": [],
+          "relationships": {
+            "SOURCE": {
+              "nodeId": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf_7",
+              "metadata": {
+                "page_number": 7,
+                "total_pages": 13,
+                "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+                "file_name": "Insider-Trading-Policy.pdf"
+              },
+              "hash": "kPoCLGhz+bNOnjAcVINoN7msOxKMUJYvELvTEt4IMHw="
+            }
+          },
+          "text": "5\non the use of proceeds (such as making a mortgage payment or for an emergency\nexpenditure).\n3. Avoid Speculation. Investing in the Company’s common stock or other securities\nprovides an opportunity to share in the future growth of the Company. But\ninvestment in the Company and sharing in the growth of the Company does not\nmean short range speculation based on fluctuations in the market. Such activities\nput the personal gain of the employee or director in conflict with the best interests of\nthe Company and its stockholders. Although this policy does not mean that\nemployees or directors may never sell shares, the Company encourages\nemployees and directors to avoid frequent trading in Company stock.\nSpeculating in Company stock is not part of the Company culture.\n4. Trading in Other Securities. No employee or director should place a purchase or sale\norder (including investment through a retirement account), or recommend that\nanother person place a purchase or sale order, in the securities of another\ncorporation, if the employee or director learns in the course of his or her employment\nconfidential information about the other corporation that is likely to affect the value of\nthose securities. For example, it would be a violation of the securities laws if an\nemployee or director learned through Company sources that the Company intended\nto purchase assets from a company, and then placed an order to buy or sell stock in\nthat other company because of the likely increase or decrease in the value of its\nsecurities.\n5. Blackout dates. Except with respect to trading pursuant to existing 10b5-1 plans,\ntrading by all directors, officers and employees and their household members is\nonly permitted each fiscal quarter during the period beginning on the second\nbusiness day following an earnings release with respect to the preceding fiscal period\nand ending two weeks before the end of the third month of the then current fiscal\nquarter (the “Window”). Remember: except for trades made pursuant to an\nexisting 10b5-1 plan, if you have material inside information, you are not\nallowed to trade even during the Window.\n6. Additional Restrictions on the Window Group. The Window Group consists of (i)\ndirectors and executive officers of the Company and their assistants and household\nmembers, (ii) subset of employees in the financial reporting, legal and business\ndevelopment groups and (iii) such other persons as may be designated from time to\ntime and informed of such status by the Company’s CLO. The Window Group is\nsubject to the following restrictions on trading in Company securities in addition to\nthose set forth above:\n• all trades are subject to prior review by the CLO;\n• clearance for all trades must be obtained from the Company’s CLO;\n• no trading is permitted outside the Window except for reasons of exceptional\npersonal hardship and subject to prior approval by the Chief Executive Officer\nand CLO; provided that, if one of these individuals wishes to trade outside the\nWindow, it shall be subject to prior approval by the other; and",
+          "textTemplate": "",
+          "endCharIdx": 3065,
+          "metadataSeparator": "\n",
+          "type": "TEXT",
+          "hash": "G+58OODYMDlT3JwAXBwXbzAB8KV4MNgMmrg17h2EqrU="
+        },
+        "c51ce949-9614-4421-a767-f3ebf37b2808": {
+          "id_": "c51ce949-9614-4421-a767-f3ebf37b2808",
+          "metadata": {
+            "page_number": 8,
+            "total_pages": 13,
+            "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+            "file_name": "Insider-Trading-Policy.pdf"
+          },
+          "excludedEmbedMetadataKeys": [],
+          "excludedLlmMetadataKeys": [],
+          "relationships": {
+            "SOURCE": {
+              "nodeId": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf_8",
+              "metadata": {
+                "page_number": 8,
+                "total_pages": 13,
+                "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+                "file_name": "Insider-Trading-Policy.pdf"
+              },
+              "hash": "d6phV4xo0wQ3ISY3+IHv4FfmTbfP/vw3n7hKBhBR9kQ="
+            }
+          },
+          "text": "6\n• individuals in the Window Group are also subject to the general restrictions on all\nemployees (e.g., they may not trade during the Window if they have knowledge of\nmaterial nonpublic information).\nNote that at times the CLO may determine that no trades may occur even during the Window\nwhen clearance is requested. This may occur as a result of a pending business transaction, a\ncyber-breach, or any material development that has not yet been publicly disclosed. No reasons\nmay be provided and the closing of the Window may itself constitute material inside information\nthat should not be communicated.\nThe foregoing Window Group restrictions do not apply to transactions pursuant to 10b5-1 plans.\nHowever, Window Group members may not enter into, amend or terminate a 10b5-1 Plan\nrelating to Company securities without the prior approval of the CLO, which will only be given\nduring a Window period and only if the employee does not have knowledge of material nonpublic\ninformation.\nG. Applicability of U.S. Securities Laws to International Transactions.\nAll employees of the Company’ and its subsidiaries are subject to the restrictions on trading in\nCompany securities and the securities of other companies. The U.S. securities laws may be\napplicable to trades in the Company’s securities executed outside the U.S., as well as to the\nsecurities of the Company’s subsidiaries or affiliates, even if such subsidiaries are located\noutside the United States. Transactions involving securities of subsidiaries or affiliates should be\ncarefully reviewed by counsel for compliance not only with local law but also for possible\napplication of U.S. securities laws.\nIII. OTHER LIMITATIONS ON SECURITIES TRANSACTIONS\nA. Public Resales – Rule 144.\nThe U.S. Securities Act (the “Securities Act”) requires every person who offers or sells a security\nto register such transaction with the SEC unless an exemption from registration is available.\nRule 144 under the Securities Act is the exemption typically relied upon for (i) public resales by\nany person of “restricted securities” (i.e., unregistered securities acquired in a private offering or\nsale) and (ii) public resales by directors, officers and other affiliates of any of the Company’s\nsecurities, whether restricted or unrestricted.\nThe exemption in Rule 144 may only be relied upon if certain conditions are met. These\nconditions vary based upon whether the Company has been subject to the SEC’s reporting\nrequirements for 90 days (and is therefore a “reporting company” for purposes of the rule) and\nwhether the person seeking to sell the securities is an affiliate or not. Application of the rule is\ncomplex and Company employees and directors should not make a sale of Company\nsecurities in reliance on Rule 144 without obtaining the approval of the CLO, who may\nrequire the employee or director to obtain an outside legal opinion satisfactory to the CLO\nconcluding that the proposed sale qualifies for the Rule 144 exemption.\n1. Holding Period. Restricted securities issued by a reporting company (i.e., a company\nthat has been subject to the SEC’s reporting requirements for at least 90 days) must\nbe held and fully paid for a period of six months prior to their sale. Restricted\nsecurities issued by a non-reporting company are subject to a one-year holding",
+          "textTemplate": "",
+          "endCharIdx": 3316,
+          "metadataSeparator": "\n",
+          "type": "TEXT",
+          "hash": "oDeM/goq+d19Q5dvv7VD4fUqtu1TcNDbyaIx/As0BJ0="
+        },
+        "2d283efe-3b45-40cb-9ede-75372409cd9f": {
+          "id_": "2d283efe-3b45-40cb-9ede-75372409cd9f",
+          "metadata": {
+            "page_number": 9,
+            "total_pages": 13,
+            "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+            "file_name": "Insider-Trading-Policy.pdf"
+          },
+          "excludedEmbedMetadataKeys": [],
+          "excludedLlmMetadataKeys": [],
+          "relationships": {
+            "SOURCE": {
+              "nodeId": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf_9",
+              "metadata": {
+                "page_number": 9,
+                "total_pages": 13,
+                "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+                "file_name": "Insider-Trading-Policy.pdf"
+              },
+              "hash": "77hXbTiX7FYWVDxE1xjLrzTxt7B/jkuzWKO7F8i1GzU="
+            }
+          },
+          "text": "7\nperiod. The holding period requirement does not apply to securities held by affiliates\nthat were acquired either in the open market or in a public offering of securities\nregistered under the Securities Act. Generally, if the seller acquired the securities\nfrom someone other than the Company or an affiliate of the Company, the holding\nperiod of the person from whom the seller acquired such securities can be “tacked” to\nthe seller’s holding period in determining if the holding period has been satisfied.\n2. Current Public Information. Current information about the Company must be publicly\navailable before the sale can be made. The Company’s periodic reports filed with the\nSEC ordinarily satisfy this requirement. If the seller is not an affiliate of the Company\nissuing the securities (and has not been an affiliate for at least three months) and one\nyear has passed since the securities were acquired from the issuer or an affiliate of\nthe issuer (whichever is later), the seller can sell the securities without regard to the\ncurrent public information requirement.\nRule 144 also imposes the following additional conditions on sales by persons who\nare “affiliates.” A person or entity is considered an “affiliate,” and therefore subject to\nthese additional conditions, if it is currently an affiliate or has been an affiliate within\nthe previous three months:\n3. Volume Limitations. The amount of debt securities that can be sold by an affiliate\nand by certain persons associated with the affiliate during any three-month period\ncannot exceed 10% of a tranche (or class when the securities are non-participatory\npreferred stock), together with all sales of securities of the same tranche sold for the\naccount of the affiliate. The amount of equity securities that can be sold by an\naffiliate during any three-month period cannot exceed the greater of (i) one percent of\nthe outstanding shares of the class or (ii) the average weekly reported trading volume\nfor shares of the class during the four calendar weeks preceding the time the order to\nsell is received by the broker or executed directly with a market maker.\n4. Manner of Sale. Equity securities held by affiliates must be sold in unsolicited\nbrokers’ transactions, directly to a market-maker or in riskless principal transactions.\n5. Notice of Sale. An affiliate seller must file a notice of the proposed sale with the SEC\nat the time the order to sell is placed with the broker, unless the amount to be sold\nneither exceeds 5,000 shares nor involves sale proceeds greater than $50,000. See\n“Filing Requirements”.\nBona fide gifts are not deemed to involve sales of shares for purposes of Rule 144, so they can\nbe made at any time without limitation on the amount of the gift. Donees who receive restricted\nsecurities from an affiliate generally will be subject to the same restrictions under Rule 144 that\nwould have applied to the donor, depending on the circumstances.\nB. Private Resales.\nDirectors, officers and employees also may sell securities in a private transaction without\nregistration pursuant to Section 4(a)(7) of the Securities Act, which allows resales of shares of\nreporting companies to “accredited investors” under Rule 501 of Regulation D, provided that the\nsale is not solicited by any form of general solicitation or advertising. There are a number of\nadditional requirements, including that the seller and persons participating in the sale on a",
+          "textTemplate": "",
+          "endCharIdx": 3434,
+          "metadataSeparator": "\n",
+          "type": "TEXT",
+          "hash": "kfKeGGufPu66NQAugBiA+p5zP7oU6SmD4J/zeLs9jks="
+        },
+        "8665f118-9706-4e7e-829d-5251993176f5": {
+          "id_": "8665f118-9706-4e7e-829d-5251993176f5",
+          "metadata": {
+            "page_number": 10,
+            "total_pages": 13,
+            "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+            "file_name": "Insider-Trading-Policy.pdf"
+          },
+          "excludedEmbedMetadataKeys": [],
+          "excludedLlmMetadataKeys": [],
+          "relationships": {
+            "SOURCE": {
+              "nodeId": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf_10",
+              "metadata": {
+                "page_number": 10,
+                "total_pages": 13,
+                "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+                "file_name": "Insider-Trading-Policy.pdf"
+              },
+              "hash": "B/sIIiDI9sAzMVSCbiEM9F1/z0e22BwYXveawsDpZF8="
+            }
+          },
+          "text": "8\nremunerated basis are not “bad actors” under Rule 506(d)(1) of Regulation D or otherwise\nsubject to certain statutory disqualifications; the Company is engaged in a business and not in\nbankruptcy; and the securities offered have been outstanding for at least 90 days and are not\npart of an unsold underwriter’s allotment. Private resales must be reviewed in advance by the\nCompany’s CLO and may require the participation of outside counsel.\nC. Restrictions on Purchases of Company Securities.\nIn order to prevent market manipulation, the SEC adopted Regulation M under the U.S.\nExchange Act. Regulation M generally restricts the Company or any of its affiliates from buying\nCompany stock, including as part of a share buyback program, in the open market during certain\nperiods while a distribution, such as a public offering, is taking place. You should consult with\nthe Company’s CLO if you desire to make purchases of Company stock during any period in\nwhich the Company is conducting an offering. Similar considerations may apply during period\nwhen the Company is conducting or has announced a tender offer.\nD. Disgorgement of Profits on Short-Swing Transactions – Section 16(b).\nSection 16 of the Exchange Act applies to directors and officers of the Company and to any\nperson beneficially owning more than ten percent of any registered class of the Company’s\nequity securities, which is measured by adding a person’s shares of common stock with the\nshares of stock subject to options or other equity awards that are exercisable within 60 days of\nsuch date when measured. The section is intended to deter such persons (collectively referred\nto below as “insiders”) from misusing confidential information about their companies for personal\ntrading gain. Section 16(a) requires insiders to publicly disclose any changes in their beneficial\nownership of the Company’s equity securities (see “Filing Requirements”, below). Section 16(b)\nrequires insiders to disgorge to the Company any “profit” resulting from “short-swing” trades, as\ndiscussed more fully below. Section 16(c) effectively prohibits insiders from engaging in short\nsales (see “Prohibition of Short Sales”, below).\nUnder Section 16(b), any profit realized by an insider on a “short-swing” transaction (i.e., a\npurchase and sale, or sale and purchase, of the Company’s equity securities within a period of\nless than six months) must be disgorged to the Company upon demand by the Company or a\nstockholder acting on its behalf. By law, the Company cannot waive or release any claim it may\nhave under Section 16(b), or enter into an enforceable agreement to provide indemnification for\namounts recovered under the section.\nLiability under Section 16(b) is imposed in a mechanical fashion without regard to whether the\ninsider intended to violate the section. Good faith, therefore, is generally not a defense. All that\nis necessary for a successful claim is to show that the insider realized “profits” on a short-swing\ntransaction; however, profit, for this purpose, is calculated as the difference between the sale\nprice and the purchase price in the matching transactions, and may be unrelated to the actual\ngain on the shares sold. When computing recoverable profits on multiple purchases and sales\nwithin a six month period, the courts maximize the recovery by matching the lowest purchase\nprice with the highest sale price, the next lowest purchase price with the next highest sale price,\nand so on. The use of this method makes it possible for an insider to sustain a net loss on a\nseries of transactions while having recoverable profits.\nThe terms “purchase” and “sale” are construed under Section 16(b) to cover a broad range of\ntransactions, including acquisitions and dispositions in tender offers, certain corporate",
+          "textTemplate": "",
+          "endCharIdx": 3790,
+          "metadataSeparator": "\n",
+          "type": "TEXT",
+          "hash": "2cghaYORs6vbXIzXLq+Zg8pOoOBz16F3jeuBneLn9wU="
+        },
+        "cc3283ab-eba4-4ccf-855c-6274887ee9f4": {
+          "id_": "cc3283ab-eba4-4ccf-855c-6274887ee9f4",
+          "metadata": {
+            "page_number": 11,
+            "total_pages": 13,
+            "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+            "file_name": "Insider-Trading-Policy.pdf"
+          },
+          "excludedEmbedMetadataKeys": [],
+          "excludedLlmMetadataKeys": [],
+          "relationships": {
+            "SOURCE": {
+              "nodeId": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf_11",
+              "metadata": {
+                "page_number": 11,
+                "total_pages": 13,
+                "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+                "file_name": "Insider-Trading-Policy.pdf"
+              },
+              "hash": "CCswHwmaSMNbTDllN6m9t/ml8AkYaBUl5ZVCcTQeKJk="
+            }
+          },
+          "text": "9\nreorganizations and transactions in convertible or derivative securities (such as stock options and\nstock appreciation rights). Moreover, purchases and sales by an insider may be matched with\ntransactions by any person (such as certain family members or a family trust) whose securities\nare deemed to be beneficially owned by the insider.\nThe Section 16 rules are complicated and present ample opportunity for inadvertent error. To\navoid unnecessary costs and potential embarrassment for insiders and the Company, officers\nand directors are strongly urged to consult with the Company’s CLO, prior to engaging in any\ntransaction or other transfer of Company equity securities regarding the potential applicability of\nSection 16(b).\nE. Prohibition of Short Sales.\nUnder Section 16(c), insiders are prohibited from effecting “short sales” of the Company’s equity\nsecurities. A “short sale” is one involving securities which the seller does not own at the time of\nsale, or, if owned, are not delivered within 20 days after the sale or deposited in the mail or other\nusual channels of transportation within five days after the sale. Wholly apart from Section 16(c),\nthe Company prohibits directors and employees from selling the Company’s stock short. This\ntype of activity is inherently speculative in nature and is contrary to the best interests of the\nCompany and its stockholders.\nF. Filing Requirements.\n1. Form 3, 4 and 5. Under Section 16(a) of the Exchange Act, insiders must file with the\nSEC public reports disclosing their holdings of and transactions involving, the\nCompany’s equity securities. An initial report on Form 3 must be filed by every\ninsider within 10 days after election or appointment disclosing all equity securities of\nthe Company beneficially owned by the reporting person on the date he/she became\nan insider. Even if no securities were owned on that date, the insider must file a\nreport. Any subsequent change in the nature or amount of beneficial ownership by\nthe insider must be reported on Form 4 and filed by the end of the second business\nday following the trade date of the transaction. Certain exempt transactions\n(principally gifts) may be reported on Form 5 within 45 days after the end of the fiscal\nyear. The fact that an insider’s transactions during the month resulted in no net\nchange, or the fact that no securities were owned after the transactions were\ncompleted, does not provide a basis for failing to report.\nAll changes in the amount or the form (i.e., direct or indirect) of beneficial ownership\n(not just purchases and sales) must be reported. Thus, such transactions as gifts\nordinarily are reportable. Moreover, an officer or director who has ceased to be an\nofficer or director must report any transactions after termination which occurred within\nsix months of a transaction that occurred while the person was an insider. Form 4\nalso must reflect the insider’s holdings immediately after the reported transaction, so\nit is important to maintain an accurate account of the insider’s holdings over time.\nWho is an “insider” for the purpose of Section 16(a)? Officers, directors, and those\nthat beneficially own more than ten percent of any class of the Company’s equity\nsecurities (measured by adding a person’s shares of common stock with the shares\nof stock subject to options or other equity awards that are exercisable within 60 days\nof such date when measured). The reports under Section 16(a) are intended to cover",
+          "textTemplate": "",
+          "endCharIdx": 3472,
+          "metadataSeparator": "\n",
+          "type": "TEXT",
+          "hash": "qQvAjHogwwPR1XdDEhmGc2YhWK6JP2DE/MjyS7r6XM8="
+        },
+        "f8b845bb-37a7-446c-8317-6cb2626d307c": {
+          "id_": "f8b845bb-37a7-446c-8317-6cb2626d307c",
+          "metadata": {
+            "page_number": 12,
+            "total_pages": 13,
+            "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+            "file_name": "Insider-Trading-Policy.pdf"
+          },
+          "excludedEmbedMetadataKeys": [],
+          "excludedLlmMetadataKeys": [],
+          "relationships": {
+            "SOURCE": {
+              "nodeId": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf_12",
+              "metadata": {
+                "page_number": 12,
+                "total_pages": 13,
+                "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+                "file_name": "Insider-Trading-Policy.pdf"
+              },
+              "hash": "kjGQz4Hu+CRKvg5PCjbYnHeRjExsp0VBO4InQ7xjcBg="
+            }
+          },
+          "text": "10\nall securities beneficially owned either directly by the insider or indirectly through\nothers. An insider is considered the direct owner of all Company equity securities\nheld in his or her own name or held jointly with others. An insider is considered the\nindirect owner of any securities from which he/she obtains benefits substantially\nequivalent to those of ownership. Thus, equity securities of the Company beneficially\nowned through partnerships, corporations, trusts, estates and by family members\ngenerally are subject to reporting. Absent countervailing facts, an insider is\npresumed to be the beneficial owner of securities held by his or her spouse and other\nfamily members sharing the same household. But an insider is free to disclaim\nbeneficial ownership of these or any other securities being reported if the insider\nbelieves there is a reasonable basis for doing so.\nIt is important that reports under Section 16(a) be prepared properly and filed on a\ntimely basis. The reports must be received at the SEC by the filing deadline. There\nis no provision for an extension of the filing deadlines, and the SEC can take\nenforcement action against insiders who do not comply fully with the filing\nrequirements. In addition, the Company is required to disclose in its annual proxy\nstatement the names of insiders who failed to file Section 16(a) reports properly\nduring the fiscal year, along with the particulars of such instances of noncompliance.\nAccordingly, all directors and officers must notify the Company’s CLO, prior to\nany transactions or changes in their or their family members’ beneficial\nownership involving Company stock and are strongly encouraged to avail\nthemselves of the assistance available from the CLO’s office in satisfying the\nreporting requirements.\n2. Schedule 13D and 13G. Section 13(d) of the Exchange Act requires the filing of a\nstatement on Schedule 13D (or on Schedule 13G, in certain limited circumstances)\nby any person or group that acquires beneficial ownership of more than five percent\nof a class of equity securities registered under the Exchange Act. The threshold for\nreporting is met if the stock owned, when coupled with the amount of stock subject to\noptions exercisable within 60 days, exceeds the five percent limit.\nA report on Schedule 13D is required to be filed with the SEC and submitted to the\nCompany within ten days after the reporting threshold is reached. If a material\nchange occurs in the facts set forth in the Schedule 13D, such as an increase or\ndecrease of one percent or more in the percentage of stock beneficially owned, an\namendment disclosing the change must be filed promptly. A decrease in beneficial\nownership to less than five percent is per se material and must be reported.\nSchedule 13G reporting, which is more limited and subject to fewer updating\nrequirements than 13D, is generally available for equity securities acquired before the\nCompany’s IPO or first public listing.\nA person is deemed the beneficial owner of securities for purposes of Section 13(d) if\nsuch person has or shares voting power (i.e., the power to vote or direct the voting of\nthe securities) or dispositive power (i.e., the power to sell or direct the sale of the\nsecurities). As is true under Section 16(a) of the Exchange Act, a person filing a\nSchedule 13D may seek to disclaim beneficial ownership of any securities attributed\nto him or her if he or she believes there is a reasonable basis for doing so.",
+          "textTemplate": "",
+          "endCharIdx": 3470,
+          "metadataSeparator": "\n",
+          "type": "TEXT",
+          "hash": "e6D+KbOzCV8RuLILRCLD84XOOnFCKkmd1+RKFlDMHUE="
+        },
+        "88a7f5cc-8145-4e73-883f-c90227c0cc49": {
+          "id_": "88a7f5cc-8145-4e73-883f-c90227c0cc49",
+          "metadata": {
+            "page_number": 13,
+            "total_pages": 13,
+            "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+            "file_name": "Insider-Trading-Policy.pdf"
+          },
+          "excludedEmbedMetadataKeys": [],
+          "excludedLlmMetadataKeys": [],
+          "relationships": {
+            "SOURCE": {
+              "nodeId": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf_13",
+              "metadata": {
+                "page_number": 13,
+                "total_pages": 13,
+                "file_path": "/Users/danielos/dev/ai-ollama-js/documents/Insider-Trading-Policy.pdf",
+                "file_name": "Insider-Trading-Policy.pdf"
+              },
+              "hash": "7qFU2VUrLMVOn9WbJEgjkTKJiF4/8ayxcGWSR1a7A6s="
+            }
+          },
+          "text": "11\n3. Form 144. As described above under the discussion of Rule 144, an affiliate seller\nrelying on Rule 144 must file a notice of proposed sale with the SEC at the time the\norder to sell is placed with the broker unless the amount to be sold during any three-\nmonth period neither exceeds 5,000 shares nor involves sale proceeds greater than\n$50,000.",
+          "textTemplate": "",
+          "endCharIdx": 351,
+          "metadataSeparator": "\n",
+          "type": "TEXT",
+          "hash": "7ctRXA532UcJ5z6Ka0QCZqABo/AmQU1a/b8/G5NvhAQ="
+        }
+      },
+      "type": "simple_dict"
+    }
+  }
+}

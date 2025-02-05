@@ -9,6 +9,7 @@
       "executor": "@nx/js:node",
       "defaultConfiguration": "development",
       "options": {
+        "inspect": true,
         "buildTarget": "ne-rag:build"
       },
       "configurations": {
