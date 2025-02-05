@@ -12,7 +12,7 @@ npm i
 
 To run **ne-rag** service: `nx serve ne-rag`;
 
-### **BUT** You have to install ollama first!!! [here](#Install Ollama).
+### **BUT** You have to install ollama first!!! [here](#Install-Ollama).
 
 ## Local RAG Service
 
