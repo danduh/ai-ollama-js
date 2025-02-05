@@ -1,11 +1,11 @@
-import { Route, Routes } from 'react-router-dom';
 import { useChat } from 'ai/react';
-// @ts-ignore
+import React from 'react';
 import { ChatSection } from '@llamaindex/chat-ui';
 
 export function App() {
   const handler = useChat({
     api: 'http://localhost:3000/api/llamaindex/v1/completions',
+    // api:'http://localhost:11434/api/chat',
     streamProtocol: 'text',
   });
   console.log(handler.messages);

@@ -64,7 +64,6 @@ We can check all locally available models by running `ollama list`.
 ```shell
 NAME            ID              SIZE    MODIFIED           
 llama3.2:latest 62757c860e01    4.7 GB  About a minute ago      
-llama3:latest   a6990ed6be41    4.7 GB  2 months ago 
 ```
 
 To run ollama use `run` command
