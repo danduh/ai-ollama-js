@@ -12,7 +12,8 @@ export class LlamaIndexController {
 
   @Post('completions')
   async query(@Body() body: any) {
-    const message = await this.llamaIndexService.queryIndex(body);
-    return message.content;
+    // const message = await this.llamaIndexService.queryIndex(body);
+    const message = await this.llamaIndexService.simpleChat(body);
+    return message.message.content;
   }
 }

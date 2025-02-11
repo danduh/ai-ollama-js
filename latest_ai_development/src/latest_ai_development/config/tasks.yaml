@@ -1,0 +1,19 @@
+research_task:
+  description: >
+    Perform a web search for the latest news about {company_name} from reputable sources.
+    Identify at least three high-quality articles published in the last {hours_back} hours.
+  expected_output: >
+    A list of three article titles with links and brief summaries.
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Take the articles found by the researcher and create a structured report.
+    Summarize each article in 3-4 sentences, including the title and URL.
+  expected_output: >
+    A formatted JSON report with three summarized articles, including source links.
+    Json format should be {"title": <Article Title>, "link": "link to source", "summary": <article summary>}
+  agent: reporting_analyst
+  output_file: >
+    company_news_report.md

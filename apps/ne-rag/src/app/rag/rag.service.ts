@@ -40,12 +40,17 @@ console.log('Done');
 
 @Injectable()
 export class LlamaIndexService implements OnModuleInit {
+  assistant!: Ollama;
   vectorIndex!: VectorStoreIndex;
   storageContext!: StorageContext;
 
   constructor(private configService: ConfigService) {}
 
   async onModuleInit() {
+    this.assistant = new Ollama({
+      model: 'llama3.2',
+    });
+
     this.storageContext = await storageContextFromDefaults({
       persistDir: this.configService.get('RAG_VECTOR_PERSIST'),
     });
@@ -53,6 +58,27 @@ export class LlamaIndexService implements OnModuleInit {
     await this.loadDirectory(
       this.configService.get('RAG_SOURCE_FOLDER') as string
     );
+  }
+
+  public async simpleChat(request: any) {
+    const { messages } = request;
+
+    let userMessage = null;
+    for (let i = messages.length - 1; i >= 0; i--) {
+      if (messages[i].role === 'user') {
+        userMessage = messages[i];
+        break;
+      }
+    }
+    const prompt = userMessage?.content;
+
+    const response = await this.assistant.chat({
+      messages: [
+        { role: 'system', content: "You are a great market stock dealer." },
+        { role: 'user', content: prompt }],
+    });
+    console.log(response);
+    return response;
   }
 
   private readonly logger = new Logger(LlamaIndexService.name);
@@ -92,10 +118,9 @@ export class LlamaIndexService implements OnModuleInit {
 
     this.logger.log(message);
 
-
     sourceNodes?.forEach((source: NodeWithScore, index: number) => {
-      console.log("SOURCE:", source)
-      console.log("INDEX:", index)
+      console.log('SOURCE:', source);
+      console.log('INDEX:', index);
       this.logger.log(
         `\n${index}: Score: ${source.score} - ${source.node
           .getContent(MetadataMode.NONE)
